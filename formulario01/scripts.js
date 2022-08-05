@@ -1,7 +1,6 @@
 const formverificarcl = document.getElementById("button01");
 const formverificarpd = document.getElementById("button02");
 const formcadastrar = document.getElementById("button03");
-const clienteid = document.getElementById("cliente-id");
 const clientemome = document.getElementById("nome-cliente");
 const clienteendereco = document.getElementById("cliente-endereco");
 const clientetelefone = document.getElementById("cliente-telefone");
@@ -29,16 +28,9 @@ formverificarcl.addEventListener("click", (e) => {
 });
 
 function checkInputsCl() {
-  const clienteidValue = clienteid.value;
   const clientemomeValue = clientemome.value;
   const clienteenderecoValue = clienteendereco.value;
   const clientetelefoneValue = clientetelefone.value;
-
-  if (clienteidValue === "") {
-    setErrorFor(clienteid, "O id é obrigatório.");
-  } else {
-    setSuccessFor(clienteid);
-  }
 
   if (clientemomeValue === "") {
     setErrorFor(clientemome, "O nome é obrigatório.");
@@ -113,11 +105,6 @@ function checkInputs() {
   const pedidovalorValue = pedidovalor.value;
   const pedidodataValue = pedidodata.value;
 
-  if (clienteidValue === "") {
-    setErrorFor(clienteid, "O id é obrigatório.");
-  } else {
-    setSuccessFor(clienteid);
-  }
 
   if (clientemomeValue === "") {
     setErrorFor(clientemome, "O nome é obrigatório.");
