@@ -11,7 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;900&display=swap"
       rel="stylesheet"
     />
-    <title>(EM PROGRESSO) Formulário XPTO Manutenções</title>
+    <title>(EM PROGRESSO) Formulário XPTO Idiomas</title>
   </head>
   <body>
 
@@ -20,30 +20,23 @@
     <div class="container">
 
       <div class="header">
-        <h2>Viagens</h2>
+        <h2>XPTO Idiomas</h2>
       </div>
 
       <div id="form" class="form">
 
         <div class="info01">
             <div class="form-control">
-                <label for="id">Matrícula</label>
-                <input type="number" id="matricula-tecnico" placeholder="Digite a matricula do técnico..."/>
+                <label for="id">Id Da Turma</label>
+                <input type="number" id="id-turma" placeholder="Digite o id da turma..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
 
             <div class="form-control">
-                <label for="telefone">Número da manutenção</label>
-                <input type="number" id="num-manutencao" placeholder="Digite o número da manutenção..."/>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
-                <small>Mensagem de erro</small>
-            </div>
-            <div class="form-control">
-                <label for="telefone">Formação</label>
-                <input type="text" id="formacao-tecnico" placeholder="Digite a formação do técnico..."/>
+                <label for="telefone">Nome do curso</label>
+                <input type="number" id="nome-curso" placeholder="Digite o nome do curso..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
@@ -54,23 +47,16 @@
         <div class="info02">
 
             <div class="form-control">
-                <label for="telefone">Hora da saída</label>
-                <input type="time" id="hora-partida" placeholder="Digite a hora da partida..."/>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
-                <small>Mensagem de erro</small>
-            </div>
-            <div class="form-control">
-                <label for="telefone">Hora da chegada</label>
-                <input type="time" id="hora-chegada" placeholder="Digite a hora da chegada..."/>
+                <label for="telefone">RA Do Aluno</label>
+                <input type="number" id="ra-aluno" placeholder="Digite o ra do aluno..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
 
             <div class="form-control">
-                <label for="telefone">Data</label>
-                <input type="date" id="data-viagem" placeholder="Digite a data da viagem..."/>
+                <label for="telefone">Nome Do Aluno</label>
+                <input type="text" id="nome-aluno" placeholder="Digite o nome do aluno..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
@@ -81,24 +67,16 @@
         <div class="info03">
 
             <div class="form-control">
-                <label for="telefone">Origem</label>
-                <input type="text" id="origem-viagem" placeholder="Digite a origem da viagem..."/>
+                <label for="telefone">Idioma</label>
+                <input type="text" id="idioma" placeholder="Digite o idioma..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
 
             <div class="form-control">
-                <label for="telefone">Destino</label>
-                <input type="text" id="destino-viagem" placeholder="Digite o destino da viagem..."/>
-                <i class="fas fa-exclamation-circle"></i>
-                <i class="fas fa-check-circle"></i>
-                <small>Mensagem de erro</small>
-            </div>
-
-            <div class="form-control">
-                <label for="telefone">Distância</label>
-                <input type="number" id="distancia-km" placeholder="Digite a distância da viagem..."/>
+                <label for="telefone">Número da sala</label>
+                <input type="text" id="num-sala" placeholder="Digite o número da sala..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
@@ -109,32 +87,54 @@
         <div class="info04">
 
             <div class="form-control">
-                <label for="nome">Nome</label>
-                <input type="text" id="nome-tecnico" placeholder="Digite o nome do técnico..." />
+                <label for="telefone">Horário Da Turma</label>
+                <input type="datetime" id="horario-turma" placeholder="Digite o horário da turma..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
-      
+
             <div class="form-control">
-                <label for="endereco">Telefone</label>
-                <input type="text" id="telefone-tecnico" placeholder="Digite o telefone do técnico..."/>
+                <label for="telefone">Data Da Matricula</label>
+                <input type="date" id="data-matricula" placeholder="Digite a data da matricula..."/>
                 <i class="fas fa-exclamation-circle"></i>
                 <i class="fas fa-check-circle"></i>
                 <small>Mensagem de erro</small>
             </div>
+
+        </div>
+
+        <div class="info05">
+
+            <div class="form-control">
+                <label for="telefone">Telefone Do Aluno</label>
+                <input type="text" id="telefone-aluno" placeholder="Digite o telefone do aluno..."/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+            <div class="form-control">
+                <label for="telefone">Data De Nascimento</label>
+                <input type="date" id="num-matricula" placeholder="Digite a data de nascimento do aluno..."/>
+                <i class="fas fa-exclamation-circle"></i>
+                <i class="fas fa-check-circle"></i>
+                <small>Mensagem de erro</small>
+            </div>
+
+
+        </div>
+
+        <button class="button" id="button01" >Cadastrar</button>
             
         </div>
 
-
-
-        <button class="button" id="button01" type="submit">Cadastrar</button>
-
-      </form>
-      
+        
 
     </div>
 
-    <script src="./scripts.js"></script>
   </body>
+
+  <script src="./script.js"></script>
+
 </html>

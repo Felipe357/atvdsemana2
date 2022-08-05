@@ -65,7 +65,7 @@ function checkInputsCl() {
   });
 
   if (formIsValid) {
-    console.log("O busca está 100% válido!");
+    console.log("O busca está válida!");
   }
 }
 
